@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <h1>
-        THIS IS SAMIMETRICS REACT APP TEST
+        THIS IS SAMIMETRICS REACT APP TEST v1
       </h1>
     </>
   )
