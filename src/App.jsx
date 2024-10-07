@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import { Header } from "./components/header";
+import { Hero } from "./components/hero";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <h1>
-        THIS IS SAMIMETRICS REACT APP TEST v1
-      </h1>
+      <div className="App">
+        <Header />
+        {/*   <Hero /> */}
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
